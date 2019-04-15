@@ -17,5 +17,13 @@ namespace TowerDefense
             Height = height;
 
         }
+
+        //Determine if a point is on a map
+        public bool OnMap(Point point)
+        {
+            bool inBounds = point.X >= 0 && point.X < Width && point.Y <= 0 && point.Y < Height;
+            return inBounds;
+
+        }
     }
 }
