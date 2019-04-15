@@ -10,7 +10,10 @@ namespace TowerDefense
     {
         static void Main(string[] args)
         {
-            Tower tower = new Tower();
+            Map map = new Map();
+            map.Width = 10;
+            map.Height = 10;
+            int area = map.Width * map.Height;
         }
     }
 }
