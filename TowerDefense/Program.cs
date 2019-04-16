@@ -27,7 +27,7 @@ namespace TowerDefense
                     }
                 );
 
-                MapLocation location = path.GetLocationAt(0);
+                MapLocation location = path.GetLocationAt(8);
                 Console.WriteLine(location.X + "," + location.Y);
                 Console.ReadLine();
             }
@@ -40,9 +40,9 @@ namespace TowerDefense
             {
                 Console.WriteLine("Unhandled Defense Objection");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Console.WriteLine("Unhandled Exception");
+                Console.WriteLine("Unhandled Exception " + ex);
             }
                        
         }
