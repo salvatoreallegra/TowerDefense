@@ -16,5 +16,17 @@ namespace TowerDefense
             X = x;
             Y = y;
         }
+
+        //calculate distance between two points.
+        public int DistanceTo(int x, int y)
+        {
+            int xDiff = X - x;
+            int yDiff = Y - y;
+
+            int xDiffSquared = xDiff * xDiff;
+            int yDiffSquared = yDiff * yDiff;
+
+            return (int)Math.Sqrt(xDiffSquared + yDiffSquared);
+        }
     }
 }
