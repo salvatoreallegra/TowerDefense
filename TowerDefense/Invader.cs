@@ -8,20 +8,6 @@ namespace TowerDefense
 {
     class Invader
     {
-        private MapLocation _location;
-
-      
-        public MapLocation Location
-        {
-            get
-            {
-                return _location;
-            }
-            set
-            {
-                _location = value;
-                Console.WriteLine("Location Changed");
-            }
-        }
+      public MapLocation Location { get; private set; }
     }
 }
