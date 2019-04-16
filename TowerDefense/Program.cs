@@ -28,8 +28,12 @@ namespace TowerDefense
                 );
 
                 MapLocation location = path.GetLocationAt(8);
-                Console.WriteLine(location.X + "," + location.Y);
-                Console.ReadLine();
+                if(location != null)
+                {
+                    Console.WriteLine(location.X + "," + location.Y);
+                }
+               
+               
             }
 
             catch (OutOfBoundsException ex)
@@ -44,7 +48,9 @@ namespace TowerDefense
             {
                 Console.WriteLine("Unhandled Exception " + ex);
             }
-                       
+
+            Console.ReadLine();
+
         }
     }
 }
