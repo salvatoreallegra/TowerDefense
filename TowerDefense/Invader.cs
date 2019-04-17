@@ -10,6 +10,10 @@ namespace TowerDefense
     {
         private readonly Path _path;
         private int _pathStep = 0;
+        public int Health
+        {
+            get; private set;
+        } = 2;
         public MapLocation Location
         {
             get
@@ -27,6 +31,11 @@ namespace TowerDefense
         public void Move()
         {
             _pathStep += 1;
+        }
+
+        public void Decreasehealth(int factor)
+        {
+            Health -= factor;
         }
     }
 }
