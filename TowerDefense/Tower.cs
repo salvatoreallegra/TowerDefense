@@ -8,6 +8,7 @@ namespace TowerDefense
 {
     class Tower
     {
+        private const int range = 1;
         private readonly MapLocation _location;
         public Tower(MapLocation location)
         {
@@ -21,6 +22,11 @@ namespace TowerDefense
             while (index < invaders.Length)
             {
                 Invader invader = invaders[index];
+                if (invader.isActive &&_location.InRangeOf(invader.Location, range))
+                {
+                    invader.Decreasehealth(range);
+                    break;
+                }
                 index++;
             }
         }
