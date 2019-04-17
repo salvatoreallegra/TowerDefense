@@ -17,7 +17,7 @@ namespace TowerDefense
         public void FireOnInvaders(Invader[] invaders)
         {
             int index = 0;
-
+            // can also use for or foreach loop here
             while (index < invaders.Length)
             {
                 Invader invader = invaders[index];
