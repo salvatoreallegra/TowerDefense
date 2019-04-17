@@ -14,6 +14,15 @@ namespace TowerDefense
         {
             get; private set;
         } = 2;
+
+        //True if the invader reached end of the path
+        public bool HasScored
+        {
+            get
+            {
+                return _pathStep >= _path.Length;
+            }
+        }
         public MapLocation Location
         {
             get
