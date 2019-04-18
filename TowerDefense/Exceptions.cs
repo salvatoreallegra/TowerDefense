@@ -8,24 +8,28 @@ namespace TowerDefense
 {
     class DefenseException : System.Exception
     {
-        public DefenseException() //default constructor
+        public DefenseException()
         {
 
         }
         public DefenseException(string message) : base(message)
         {
-
         }
     }
-    class OutOfBoundsException: DefenseException
+
+    class OutOfBoundsException : DefenseException
     {
-        public OutOfBoundsException() //default constructor
+        public OutOfBoundsException()
         {
-
         }
-        public OutOfBoundsException(String message) : base(message)
-        {
 
+        public OutOfBoundsException(string message) : base(message)
+        {
         }
     }
+
+
+
+
+
 }
