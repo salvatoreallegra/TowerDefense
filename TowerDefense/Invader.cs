@@ -45,7 +45,7 @@ namespace TowerDefense
             _pathStep += 1;
         }
 
-        public void Decreasehealth(int factor)
+        public virtual void Decreasehealth(int factor)
         {
             Health -= factor;
         }
