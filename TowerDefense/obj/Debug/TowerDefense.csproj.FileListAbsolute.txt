@@ -1,7 +1,0 @@
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe.config
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\bin\Debug\TowerDefense.exe
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\bin\Debug\TowerDefense.pdb
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\obj\Debug\TowerDefense.csprojAssemblyReference.cache
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\obj\Debug\TowerDefense.csproj.CoreCompileInputs.cache
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\obj\Debug\TowerDefense.exe
-C:\Users\Salvatore Allegra\Google Drive\Reference-Storage\Computers\solutions\VisualStudio\TowerDefense\TowerDefense\obj\Debug\TowerDefense.pdb
