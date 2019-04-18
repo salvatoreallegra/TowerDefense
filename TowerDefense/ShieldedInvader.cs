@@ -12,5 +12,9 @@ namespace TowerDefense
         {
 
         }
+        public override void DecreaseHealth(int factor)
+        {
+
+        }
     }
 }
