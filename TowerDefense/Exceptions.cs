@@ -17,8 +17,7 @@ namespace TowerDefense
         }
     }
 
-    class OutOfBoundsException : DefenseException
-    {
+    class OutOfBoundsException : DefenseException    {
         public OutOfBoundsException()
         {
         }
