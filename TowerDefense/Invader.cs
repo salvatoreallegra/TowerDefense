@@ -29,7 +29,7 @@ namespace TowerDefense
 
         public void Move() => _pathStep += 1;
 
-        public void DecreaseHealth(int factor)
+        public virtual void DecreaseHealth(int factor)
         {
             Health -= factor;
         }
