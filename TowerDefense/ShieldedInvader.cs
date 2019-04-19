@@ -20,6 +20,10 @@ namespace TowerDefense
             {
                 base.DecreaseHealth(factor);
             }
+            else
+            {
+                Console.WriteLine("Shot at a shielded invader but it sustained no damage");
+            }
         }
     }
 }
