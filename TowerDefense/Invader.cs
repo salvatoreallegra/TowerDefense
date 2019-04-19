@@ -17,7 +17,7 @@ namespace TowerDefense
         // True if the invader has reached the end of the path
         public bool HasScored { get { return _pathStep >= _path.Length; } }
 
-        public int Health { get; private set; } = 2;
+        public virtual int Health { get; protected set; } = 2;
 
         public bool IsNeutralized => Health <= 0;
 
