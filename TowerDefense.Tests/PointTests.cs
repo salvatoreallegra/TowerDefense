@@ -28,5 +28,14 @@ namespace TowerDefense.Tests
             var actual = target.DistanceTo(point);
             Assert.Equal(expected,actual);
         }
+        [Fact]
+        public void DistanceToPointAtSamePosition()
+        {
+            var point = new Point(3, 4);
+            var target = new Point(3, 4);
+            var expected = 0.0;
+            var actual = target.DistanceTo(point);
+            Assert.Equal(expected, actual);
+        }
     }
 }
