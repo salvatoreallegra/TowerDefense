@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerDefense", "TowerDefens
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61C50F81-D29E-4ACE-9423-7CBAE98B19C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerDefenseTests", "TowerDefenseTests\TowerDefenseTests.csproj", "{7B0E12BC-6943-4ADF-B3DA-34ED253E2DF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerDefense.Tests", "TowerDefense.Tests\TowerDefense.Tests.csproj", "{1A224510-78BF-4DD6-BC69-97F3FCFC5BC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{24067848-F070-4FA1-A783-363E5208C909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24067848-F070-4FA1-A783-363E5208C909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24067848-F070-4FA1-A783-363E5208C909}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B0E12BC-6943-4ADF-B3DA-34ED253E2DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B0E12BC-6943-4ADF-B3DA-34ED253E2DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B0E12BC-6943-4ADF-B3DA-34ED253E2DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B0E12BC-6943-4ADF-B3DA-34ED253E2DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A224510-78BF-4DD6-BC69-97F3FCFC5BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A224510-78BF-4DD6-BC69-97F3FCFC5BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A224510-78BF-4DD6-BC69-97F3FCFC5BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A224510-78BF-4DD6-BC69-97F3FCFC5BC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
