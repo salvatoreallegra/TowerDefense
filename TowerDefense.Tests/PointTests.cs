@@ -4,7 +4,7 @@ using TowerDefense;
 
 namespace TowerDefense.Tests
 {
-    public class UnitTest1
+    public class PointTests
     {
         [Fact]
         public void PointTest()
