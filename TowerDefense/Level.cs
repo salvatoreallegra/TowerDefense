@@ -12,6 +12,8 @@ namespace TowerDefense
 
         public Tower[] Towers { get; set; }
 
+        private int ActionCount = 0;
+
         public Level(Invader[] invaders)
         {
             _invaders = invaders;
@@ -47,9 +49,14 @@ namespace TowerDefense
                         remainingInvaders++;
                     }
                 }
+                ActionCount++;
             }
 
             return true;
+        }
+        public int getActionCount()
+        {
+            return ActionCount;
         }
     }
 }
