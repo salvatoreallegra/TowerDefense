@@ -26,5 +26,9 @@ namespace TowerDefense
         {
             return DistanceTo(point.X, point.Y);
         }
+        public override string ToString()
+        {
+            return X + ", " + Y;
+        }
     }
 }
