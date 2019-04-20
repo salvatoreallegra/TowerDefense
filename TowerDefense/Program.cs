@@ -31,7 +31,7 @@ namespace TowerDefense
                 {
                     new ShieldedInvader(path),
                     new FastInvader(path),
-                    new Invader(path),
+                    new StrongInvader(path),
                     new Invader(path)
                 };
 
