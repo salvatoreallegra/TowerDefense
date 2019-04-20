@@ -16,5 +16,10 @@ namespace TowerDefense.Tests
             Assert.Equal(y, point.Y);
             
         }
+        [Fact]
+        public void DistanceToTest()
+        {
+            Assert.True(false, "Test needs implementation");
+        }
     }
 }
