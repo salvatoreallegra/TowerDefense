@@ -12,6 +12,8 @@ namespace TowerDefense.Tests
             int x = 5;
             int y = 6;
             var point = new Point(x, y);
+            Assert.Equal(x, point.X);
+            Assert.Equal(y, point.Y);
             
         }
     }
