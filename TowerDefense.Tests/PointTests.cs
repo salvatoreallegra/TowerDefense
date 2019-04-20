@@ -16,10 +16,17 @@ namespace TowerDefense.Tests
             Assert.Equal(y, point.Y);
             
         }
+
+        //Test if the DistanceTo method calculates
+        //the correct distance between two points
         [Fact]
         public void DistanceToTest()
         {
-            Assert.True(false, "Test needs implementation");
+            var point = new Point(3, 4);
+            var target = new Point(0, 0);
+            var expected = 5.0;
+            var actual = target.DistanceTo(point);
+            Assert.Equal(expected,actual);
         }
     }
 }
