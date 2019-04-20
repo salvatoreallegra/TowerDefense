@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace TowerDefense
 {
-    class SniperTower
+    class SniperTower : Tower
     {
+        protected override int Range { get; } = 2;
+        protected override double Accuracy { get; } = 1;
+        public SniperTower(MapLocation location) : base(location)
+        {
+
+        }
     }
 }
