@@ -12,6 +12,8 @@ namespace TowerDefense
         private int _pathStep = 0;
         protected virtual int StepSize { get; } = 1;
 
+        private static int numberOfInvaders = 0;
+
         public MapLocation Location => _path.GetLocationAt(_pathStep);
 
         // True if the invader has reached the end of the path
@@ -26,6 +28,7 @@ namespace TowerDefense
         public Invader(Path path)
         {
             _path = path;
+            numberOfInvaders++;
         }
 
         public void Move() => _pathStep += StepSize;
@@ -34,6 +37,10 @@ namespace TowerDefense
         {
             Health -= factor;
             Console.WriteLine("Shot at and hit an invader!");
+        }
+        public static int getNumberOfInvaders()
+        {
+            return numberOfInvaders;
         }
     }
 }

@@ -51,6 +51,7 @@ namespace TowerDefense
 
                 Console.WriteLine("Player " + (playerWon ? "won" : "lost"));
                 Console.WriteLine("The number of individual actions the game generated was " + numberOfGameActions);
+                Console.WriteLine("Number of Invaders Created " + Invader.getNumberOfInvaders());
             }
             catch (OutOfBoundsException ex)
             {
