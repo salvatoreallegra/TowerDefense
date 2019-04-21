@@ -9,6 +9,7 @@ namespace TowerDefense
     class ShieldedInvader : Invader
     {
         private static Random _random = new Random();
+        public override int Health { get; protected set; } = 2;
 
         public ShieldedInvader(Path path) : base(path)
         {
