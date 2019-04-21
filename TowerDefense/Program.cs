@@ -10,6 +10,11 @@ namespace TowerDefense
     {
         static void Main(string[] args)
         {
+            Program game = new Program();
+            game.PlayGame();
+        }
+        private void PlayGame()
+        {
             Map map = new Map(8, 5);
 
             try
@@ -70,7 +75,6 @@ namespace TowerDefense
             }
             Console.ReadKey();
         }
-        
     }
     }
 
