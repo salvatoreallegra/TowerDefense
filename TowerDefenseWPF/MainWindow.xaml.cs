@@ -24,5 +24,11 @@ namespace TowerDefenseWPF
         {
             InitializeComponent();
         }
+
+        private void RotatedButton_Click(object sender, RoutedEventArgs e)
+        {
+            Point point = new Point(10, 10);
+            button.Width = 20;
+        }
     }
 }

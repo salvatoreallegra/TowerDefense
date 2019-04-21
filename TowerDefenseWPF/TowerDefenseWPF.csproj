@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TowerDefense\TowerDefense.csproj">
+      <Project>{24067848-f070-4fa1-a783-363e5208c909}</Project>
+      <Name>TowerDefense</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
