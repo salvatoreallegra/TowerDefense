@@ -48,10 +48,13 @@ namespace TowerDefense
 
                 bool playerWon = leve1.Play();
                 int numberOfGameActions = leve1.getActionCount();
-
+                Console.WriteLine("****************Game Results*********************");
                 Console.WriteLine("Player " + (playerWon ? "won" : "lost"));
+                Console.WriteLine("*************************************************");
+                Console.WriteLine("***************Meta Analysis*********************");
                 Console.WriteLine("The number of individual actions the game generated was " + numberOfGameActions);
                 Console.WriteLine("Number of Invaders Created " + Invader.getNumberOfInvaders());
+                Console.WriteLine("*************************************************");
             }
             catch (OutOfBoundsException ex)
             {
