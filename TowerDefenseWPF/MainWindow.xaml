@@ -6,17 +6,5 @@
         xmlns:local="clr-namespace:TowerDefenseWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="358,70,0,0" VerticalAlignment="Top" Width="137" Height="55" FontSize="48"/>
-        <Button x:Name="RotatedButton" Content="2nd Button" Margin="358,182,297,197" RenderTransformOrigin="0.5,0.5" Click="RotatedButton_Click" >
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="41.915"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
-    </Grid>
+    <Grid/>
 </Window>
