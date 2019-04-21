@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace TowerDefense
 {
-    class BasicInvader
-    {
+    class BasicInvader : Invader
+    {      
+
+        public BasicInvader(Path path) : base(path)
+        {
+
+        }
     }
 }
