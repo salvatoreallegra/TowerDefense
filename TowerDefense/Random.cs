@@ -10,7 +10,7 @@ namespace TowerDefense
     {
         private static System.Random _random = new System.Random();
 
-        public Double NextDouble()
+        public static Double NextDouble()
         {
             return _random.NextDouble();
         }
