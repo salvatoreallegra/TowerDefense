@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*This level class contains
+ * the main game loop, it doesn't
+ * start the game but it's responsible
+ * for invaders moving down a path
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

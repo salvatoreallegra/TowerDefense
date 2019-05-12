@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*A class representing a tower.
+ * Towers have the capability to fire on invaders. * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

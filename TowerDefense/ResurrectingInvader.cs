@@ -1,14 +1,17 @@
-﻿using System;
+﻿/* This invader type will demonstrate composition.
+  * It won't inherit from Invader, it implements the IInvader interface.
+  * The Goal of this class is to create an Invader that can come back as a basic invader or a strong invader once it's been killed.
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 
-/* This invader type will demonstrate composition.
-  * It won't inherit from Invader, it implements the IInvader interface.
-  * The Goal of this class is to create an Invader that can come back as a basic invader or a strong invader once it's been killed.
- */
+
 namespace TowerDefense
 {
 

@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*Author: Salvatore Allegra
+ * This class represents an invader that
+ * doesn't always sustain damage.
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
