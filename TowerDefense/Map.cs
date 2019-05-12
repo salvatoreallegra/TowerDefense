@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*Author: Salvatore Allegra
+ * The Map class defines a map for a game,
+ * it's the canvas that contains points, towers and invaders.
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
