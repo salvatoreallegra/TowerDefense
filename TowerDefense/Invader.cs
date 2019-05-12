@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+Author: Salvatore Allegra
+
+This is an abstract base class for creating invaders
+it encapsulates all the functions and state of an invader.
+Different types of invaders will be subclassed such as Strong Invader, Resurrecting Invader etc...
+
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
