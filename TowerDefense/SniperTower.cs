@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*A subclass of Tower with
+ * greater range and accuracy.
+ *  
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

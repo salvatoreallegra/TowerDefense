@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*Interface to enforce behavior
+ * and state on invaders
+ * * 
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
