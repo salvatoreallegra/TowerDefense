@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*Author: Salvatore Allegra
+ * A subclass of Invader.
+ * A strong invader has a higher health level than a regular invader.
+ */
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
