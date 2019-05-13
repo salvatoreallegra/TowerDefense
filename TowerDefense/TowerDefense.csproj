@@ -49,6 +49,7 @@
     <Compile Include="BasicInvader.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="FastInvader.cs" />
+    <Compile Include="GamePlay.cs" />
     <Compile Include="IInvader.cs" />
     <Compile Include="Invader.cs" />
     <Compile Include="Level.cs" />
